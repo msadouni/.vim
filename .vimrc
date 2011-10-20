@@ -20,6 +20,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 
 " System
+Bundle 'Lokaltog/vim-easymotion'
 Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
@@ -176,3 +177,7 @@ nnoremap <leader>g :NERDTreeToggle<CR>
 " SnipMate
 let g:snippets_dir = "~/.vim/bundle/snipmate-snippets"
 
+" EasyMotion
+let g:EasyMotion_leader_key = '<Leader>m'
+hi link EasyMotionTarget ErrorMsg
+hi link EasyMotionShade  Comment
