@@ -185,3 +185,8 @@ let g:snippets_dir = "~/.vim/bundle/snipmate-snippets"
 let g:EasyMotion_leader_key = '<Leader>m'
 hi link EasyMotionTarget ErrorMsg
 hi link EasyMotionShade  Comment
+
+" TagBar
+nnoremap <silent> <F2> :TagbarToggle<CR>
+let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
+let g:tagbar_autoshowtag = 1
