@@ -139,14 +139,15 @@ nnoremap <leader>ft Vatzf
 " Select the text that was just pasted
 nnoremap <leader>v V`]
 
-" Edit vimrc
-nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
-
 " Easier ESC
 inoremap jj <ESC>
 
 " New vertical split window
-nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <leader>n <C-w>v<C-w>l
+
+" Edit vimrc
+nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
+
 
 " Easier movement around split windows
 nnoremap <C-h> <C-w>h
