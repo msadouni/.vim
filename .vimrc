@@ -79,8 +79,10 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-set relativenumber
-set undofile
+if has('gui_running')
+  set relativenumber
+  set undofile
+endif
 
 " Leader
 let mapleader = ","
@@ -102,8 +104,9 @@ vnoremap <tab> %
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=85
-
+if has('gui_running')
+  set colorcolumn=85
+endif
 " Disable arrow keys
 " nnoremap <up> <nop>
 " nnoremap <down> <nop>
