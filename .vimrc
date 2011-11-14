@@ -74,7 +74,9 @@ endif
 " Whitespace
 set tabstop=2
 set shiftwidth=2
+set shiftround
 set softtabstop=2
+set smarttab
 set list
 set listchars=tab:▸\ ,eol:¬,trail:·
 set expandtab
@@ -83,6 +85,8 @@ set expandtab
 set encoding=utf-8
 set scrolloff=3
 set autoindent
+set smartindent
+set copyindent
 set showmode
 set showcmd
 set hidden
