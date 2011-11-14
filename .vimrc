@@ -47,6 +47,7 @@ Bundle 'skammer/vim-css-color'
 Bundle 'mgutz/vim-colors'
 " Bundle 'vim-scripts/php.vim-html-enhanced'
 Bundle '2072/PHP-Indenting-for-VIm'
+Bundle 'robgleeson/hammer.vim'
 
 " Basic
 filetype off
@@ -251,6 +252,9 @@ hi link EasyMotionShade  Comment
 nnoremap <silent> <F2> :TagbarToggle<CR>
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 let g:tagbar_autoshowtag = 1
+" Hammer
+nnoremap <leader>p :Hammer<CR>
+
 " CamelCaseMotion
 map <C-w> <Plug>CamelCaseMotion_w
 map <C-b> <Plug>CamelCaseMotion_b
