@@ -173,7 +173,7 @@ nnoremap <leader>n <C-w>v<C-w>l
 
 " Edit vimrc
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
-
+nnoremap <leader>sv :so $MYVIMRC<cr>
 
 " Easier movement around split windows
 nnoremap <C-h> <C-w>h
