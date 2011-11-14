@@ -190,6 +190,10 @@ cmap w!! w !sudo tee % >/dev/null
 " swap files
 set directory=~/.vim/tmp
 
+" Remap j and k to act as expected when used on long, wrapped, lines
+nnoremap j gj
+nnoremap k gk
+
 " Source the vimrc file after saving it
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
