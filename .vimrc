@@ -37,6 +37,7 @@ Bundle 'majutsushi/tagbar'
 Bundle 'ervandew/supertab'
 Bundle 'Raimondi/delimitMate'
 Bundle 'bkad/CamelCaseMotion'
+Bundle 'vim-scripts/Gundo'
 
 " Other
 Bundle 'tpope/vim-rails'
@@ -259,4 +260,7 @@ nnoremap <leader>p :Hammer<CR>
 map <C-w> <Plug>CamelCaseMotion_w
 map <C-b> <Plug>CamelCaseMotion_b
 map <C-e> <Plug>CamelCaseMotion_e
+
+" Gundo
+nnoremap <F5> :GundoToggle<CR>
 
