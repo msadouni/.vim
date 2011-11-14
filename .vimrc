@@ -48,6 +48,7 @@ Bundle 'skammer/vim-css-color'
 Bundle 'mgutz/vim-colors'
 " Bundle 'vim-scripts/php.vim-html-enhanced'
 Bundle '2072/PHP-Indenting-for-VIm'
+Bundle 'kchmck/vim-coffee-script'
 Bundle 'robgleeson/hammer.vim'
 
 " Basic
