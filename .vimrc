@@ -163,6 +163,7 @@ nnoremap <leader>v V`]
 
 " Easier ESC
 inoremap jj <ESC>
+inoremap jk <ESC>
 
 " New vertical split window
 nnoremap <leader>n <C-w>v<C-w>l
