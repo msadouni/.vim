@@ -187,6 +187,9 @@ nnoremap <silent> <leader>/ :nohlsearch<CR>
 " Fix those pesky situations where you edit & need sudo to save
 cmap w!! w !sudo tee % >/dev/null
 
+" swap files
+set directory=~/.vim/tmp
+
 " Source the vimrc file after saving it
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
