@@ -213,6 +213,14 @@ vmap <silent> <leader>d "_d
 " Check PHP syntax
 nnoremap <F6> :! php -l %<CR>
 
+" Easier help navigation
+" nnoremap <buffer> <CR> <C-]>
+" nnoremap <buffer> <BS> <C-T>
+" nnoremap <buffer> o /'\l\{2,\}'<CR>
+" nnoremap <buffer> O ?'\l\{2,\}'<CR>
+" nnoremap <buffer> s /\|\zs\S\+\ze\|<CR>
+" nnoremap <buffer> S ?\|\zs\S\+\ze\|<CR>
+
 " Source the vimrc file after saving it
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
