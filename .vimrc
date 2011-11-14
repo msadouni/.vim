@@ -98,6 +98,7 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
+set pastetoggle=<F2> " paste mode
 if has('gui_running')
   set relativenumber
   set undodir=~/.vim/tmp
