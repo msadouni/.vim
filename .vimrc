@@ -229,6 +229,15 @@ nnoremap <leader>g :NERDTreeToggle<CR>
 
 " SnipMate
 let g:snippets_dir = "~/.vim/bundle/snipmate-snippets"
+au BufRead *.php set ft=php.html
+au BufNewFile *.php set ft=php.html
+au BufRead *.htm set ft=php.html
+au BufNewFile *.htm set ft=php.html
+au BufRead *.html set ft=php.html
+au BufNewFile *.html set ft=php.html
+
+" PHP
+:let g:PHP_default_indenting=1
 
 " EasyMotion
 let g:EasyMotion_leader_key = '<Leader>m'
