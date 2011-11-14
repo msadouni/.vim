@@ -45,6 +45,8 @@ Bundle 'tpope/vim-endwise'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'skammer/vim-css-color'
 Bundle 'mgutz/vim-colors'
+" Bundle 'vim-scripts/php.vim-html-enhanced'
+Bundle '2072/PHP-Indenting-for-VIm'
 
 " Basic
 filetype off
