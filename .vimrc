@@ -53,8 +53,23 @@ set modelines=0
 
 " Syntax highlighting
 syntax enable
-set background=dark
-colorscheme chance-of-storm
+if has('gui_running')
+  set guifont=Menlo:h12
+  set bg=dark
+  let g:solarized_termcolors=256
+  let g:solarized_bold = 1
+  let g:solarized_underline = 1
+  let g:solarized_italic = 1
+  colorscheme solarized
+  " Remove left scrollbar
+  set guioptions-=l
+  set guioptions-=L
+else
+  " colorscheme twilight256
+  set bg=dark
+  let g:solarized_termcolors=256
+  colorscheme solarized
+endif
 
 " Whitespace
 set tabstop=2
