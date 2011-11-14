@@ -100,7 +100,10 @@ set backspace=indent,eol,start
 set laststatus=2
 if has('gui_running')
   set relativenumber
+  set undodir=~/.vim/tmp
   set undofile
+  set undolevels=1000 "maximum number of changes that can be undone
+  set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 endif
 
 " Leader
