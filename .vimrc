@@ -253,6 +253,11 @@ hi link EasyMotionShade  Comment
 nnoremap <silent> <F2> :TagbarToggle<CR>
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 let g:tagbar_autoshowtag = 1
+
+" YankRing
+nnoremap <silent> <F3> :YRShow<cr>
+inoremap <silent> <F3> <ESC>:YRShow<cr>
+
 " Hammer
 nnoremap <leader>p :Hammer<CR>
 
