@@ -36,6 +36,7 @@ Bundle 'vim-scripts/rainbow_parentheses.vim'
 Bundle 'majutsushi/tagbar'
 Bundle 'ervandew/supertab'
 Bundle 'Raimondi/delimitMate'
+Bundle 'bkad/CamelCaseMotion'
 
 " Other
 Bundle 'tpope/vim-rails'
@@ -248,3 +249,8 @@ hi link EasyMotionShade  Comment
 nnoremap <silent> <F2> :TagbarToggle<CR>
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 let g:tagbar_autoshowtag = 1
+" CamelCaseMotion
+map <C-w> <Plug>CamelCaseMotion_w
+map <C-b> <Plug>CamelCaseMotion_b
+map <C-e> <Plug>CamelCaseMotion_e
+
