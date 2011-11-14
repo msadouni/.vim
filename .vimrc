@@ -204,6 +204,9 @@ vnoremap p <Esc>:let current_reg = @"<CR>gvdi<C-R>=current_reg<CR><Esc>
 nmap <silent> <leader>d "_d
 vmap <silent> <leader>d "_d
 
+" Check PHP syntax
+nnoremap <F6> :! php -l %<CR>
+
 " Source the vimrc file after saving it
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
