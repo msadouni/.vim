@@ -212,6 +212,12 @@ if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 
+" Auto-commands
+"""""""""""""""
+
+autocmd FileType php set shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType html set shiftwidth=4 tabstop=4 softtabstop=4
+
 " Plugin configuration
 """"""""""""""""""""""
 
