@@ -162,9 +162,6 @@ vnoremap <F1> <ESC>
 " Easier :
 nnoremap ; :
 
-" Save on focus lost
-au FocusLost * :wa
-
 " ,W to clear trailing whitespace
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
@@ -236,6 +233,8 @@ endif
 
 autocmd FileType php set shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType html set shiftwidth=4 tabstop=4 softtabstop=4
+" autosave
+autocmd BufLeave,FocusLost * silent! wall
 
 " Plugin configuration
 """"""""""""""""""""""
