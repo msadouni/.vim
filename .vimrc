@@ -60,6 +60,7 @@ filetype off
 filetype plugin indent on
 set nocompatible
 set modelines=0
+set autoread " automatically reload changed files"
 
 " Syntax highlighting
 syntax enable
