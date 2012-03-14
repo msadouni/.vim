@@ -53,6 +53,7 @@ Bundle '2072/PHP-Indenting-for-VIm'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'robgleeson/hammer.vim'
 Bundle 'rstacruz/sparkup'
+Bundle 'cakebaker/scss-syntax.vim'
 
 " Basic
 filetype off
