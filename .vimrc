@@ -39,6 +39,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'bkad/CamelCaseMotion'
 Bundle 'vim-scripts/Gundo'
 Bundle 'vim-scripts/local_vimrc.vim'
+Bundle 'sickill/vim-pasta'
 
 " Other
 Bundle 'tpope/vim-rails'
