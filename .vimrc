@@ -204,6 +204,8 @@ set backupdir=~/.vim/tmp
 " Remap j and k to act as expected when used on long, wrapped, lines
 nnoremap j gj
 nnoremap k gk
+nnoremap <down> gj
+nnoremap <up> gk
 
 " make p in Visual mode replace the selected text with the yank register
 vnoremap p <Esc>:let current_reg = @"<CR>gvdi<C-R>=current_reg<CR><Esc>
