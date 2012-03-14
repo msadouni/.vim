@@ -288,6 +288,7 @@ inoremap <silent> <F3> <ESC>:YRShow<cr>
 
 " Hammer
 nnoremap <leader>p :Hammer<CR>
+let g:HammerQuiet=1 " silence terminal warnings
 
 " CamelCaseMotion
 map <C-w> <Plug>CamelCaseMotion_w
