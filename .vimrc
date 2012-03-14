@@ -96,7 +96,6 @@ set expandtab
 set encoding=utf-8
 set scrolloff=3
 set autoindent
-set smartindent
 set copyindent
 set showmode
 set showcmd
