@@ -231,6 +231,9 @@ nnoremap <F7> :b <C-Z>
 " nnoremap <buffer> s /\|\zs\S\+\ze\|<CR>
 " nnoremap <buffer> S ?\|\zs\S\+\ze\|<CR>
 
+" Toggle invisible characters
+nnoremap <leader>i :set list!<CR>
+
 " Source the vimrc file after saving it
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
