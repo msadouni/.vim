@@ -52,6 +52,7 @@ Bundle 'mgutz/vim-colors'
 Bundle '2072/PHP-Indenting-for-VIm'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'robgleeson/hammer.vim'
+Bundle 'rstacruz/sparkup'
 
 " Basic
 filetype off
