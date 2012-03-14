@@ -278,7 +278,7 @@ hi link EasyMotionTarget ErrorMsg
 hi link EasyMotionShade  Comment
 
 " TagBar
-nnoremap <silent> <F2> :TagbarToggle<CR>
+nnoremap <silent> <F4> :TagbarToggle<CR>
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 let g:tagbar_autoshowtag = 1
 
