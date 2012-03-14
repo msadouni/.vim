@@ -199,6 +199,7 @@ cmap w!! w !sudo tee % >/dev/null
 
 " swap files
 set directory=~/.vim/tmp
+set backupdir=~/.vim/tmp
 
 " Remap j and k to act as expected when used on long, wrapped, lines
 nnoremap j gj
