@@ -246,6 +246,11 @@ autocmd FileType html set shiftwidth=4 tabstop=4 softtabstop=4
 " autosave
 autocmd BufLeave,FocusLost * silent! wall
 
+" Completions
+"""""""""""""
+
+:set omnifunc=csscomplete#CompleteCSS
+
 " Plugin configuration
 """"""""""""""""""""""
 
