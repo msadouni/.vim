@@ -218,6 +218,11 @@ vmap <silent> <leader>d "_d
 " Check PHP syntax
 nnoremap <F6> :! php -l %<CR>
 
+" Wildmenu
+set wildchar=<Tab> wildmenu wildmode=full
+set wildcharm=<C-Z>
+nnoremap <F7> :b <C-Z>
+
 " Easier help navigation
 " nnoremap <buffer> <CR> <C-]>
 " nnoremap <buffer> <BS> <C-T>
