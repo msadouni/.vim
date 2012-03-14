@@ -38,6 +38,7 @@ Bundle 'ervandew/supertab'
 Bundle 'Raimondi/delimitMate'
 Bundle 'bkad/CamelCaseMotion'
 Bundle 'vim-scripts/Gundo'
+Bundle 'vim-scripts/local_vimrc.vim'
 
 " Other
 Bundle 'tpope/vim-rails'
