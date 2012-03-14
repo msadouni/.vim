@@ -241,8 +241,22 @@ endif
 " Auto-commands
 """""""""""""""
 
+au BufRead *.php set ft=php.html
+au BufNewFile *.php set ft=php.html
+au BufRead *.ctp set ft=php.html
+au BufNewFile *.ctp set ft=php.html
+au BufRead *.htm set ft=php.html
+au BufNewFile *.htm set ft=php.html
+au BufRead *.html set ft=php.html
+au BufNewFile *.html set ft=php.html
+au BufNewFile *.js set ft=js
+autocmd BufNewFile,BufRead *.scss set ft=scss
 autocmd FileType php set shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType html set shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType php.html set shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType js set shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType scss set shiftwidth=2 tabstop=2 softtabstop=2
+autocmd BufEnter * :syntax sync fromstart
 " autosave
 autocmd BufLeave,FocusLost * silent! wall
 
@@ -262,15 +276,9 @@ nnoremap <leader>g :NERDTreeToggle<CR>
 
 " SnipMate
 let g:snippets_dir = "~/.vim/bundle/snipmate-snippets"
-au BufRead *.php set ft=php.html
-au BufNewFile *.php set ft=php.html
-au BufRead *.htm set ft=php.html
-au BufNewFile *.htm set ft=php.html
-au BufRead *.html set ft=php.html
-au BufNewFile *.html set ft=php.html
 
 " PHP
-:let g:PHP_default_indenting=1
+let g:PHP_default_indenting=1
 
 " EasyMotion
 let g:EasyMotion_leader_key = '<Leader>m'
